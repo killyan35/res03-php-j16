@@ -60,15 +60,19 @@ html {
                     flex-direction: row;
                     list-style: none;
                     justify-content:space-around;
-                    padding-top:2rem;
                     li {
                         color: #fff;
+                        padding-top:2rem;
                     }
                     >li:first-of-type{
                         figure {
-                            width:50%;
-                        }
-                        
+                            padding-bottom:2rem;
+                            width:8rem;
+                            height:8rem;
+                        }   
+                    }
+                    #fig{
+                        padding-top:10px;
                     }
                 }
             }
@@ -99,22 +103,25 @@ html {
                     background-color: blue;
                     height:auto;
                     padding-bottom: 5rem;
-                    h3{
-                        padding-top: 1rem;
-                        font-size: 2rem;
-                        color:#fff;
-                        text-align: center;
+                    section {
+                        #titre{
+                            padding-top: 1rem;
+                            font-size: 2rem;
+                            color:#fff;
+                            text-align: center;
+                        }
+                        p{
+                            padding-top: 2rem;
+                            color: #fff;
+                            line-height: 1.5rem;
+                            text-align: center;
+                        }
+                        p:nth-of-type(2){
+                            padding-top: 1rem;
+                            
+                        }
                     }
-                    p{
-                        padding-top: 2rem;
-                        color: #fff;
-                        line-height: 1.5rem;
-                        text-align: center;
-                    }
-                    p:nth-of-type(2){
-                        padding-top: 1rem;
-                        
-                    }
+                    
                    
                 }
                 li:last-of-type {
@@ -150,31 +157,31 @@ html {
                         li:first-of-type {
                             grid-column: 2/3;
                             grid-row: 2/3;
-                            background-image: url("assets/img/pharmacy.jpeg");
+                            // background-image: url("assets/img/pharmacy.jpeg");
                             background-position: cover;
                         }
                         li:nth-of-type(2) {
                             grid-column: 4/5;
                             grid-row: 2/3;
-                            background-image: url("assets/img/librairie.jpeg");
+                            // background-image: url("assets/img/librairie.jpeg");
                             background-position: cover;
                         }
                         li:nth-of-type(3) {
                             grid-column: 6/7;
                             grid-row: 2/3;
-                            background-image: url("assets/img/boulangerie.jpeg");
+                            // background-image: url("assets/img/boulangerie.jpeg");
                             background-position: cover;
                         }
                         li:nth-of-type(4) {
                             grid-column: 2/3;
                             grid-row: 4/5;
-                            background-image: url("assets/img/mairie.jpeg");
+                            // background-image: url("assets/img/mairie.jpeg");
                             background-position: cover;
                         }
                         li:nth-of-type(5) {
                             grid-column: 4/5;
                             grid-row: 4/5;
-                            background-image: url("assets/img/festival.jpeg");
+                            // background-image: url("assets/img/festival.jpeg");
                             background-position: cover;
                         }
                     }

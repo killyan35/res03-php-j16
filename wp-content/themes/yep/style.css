@@ -66,13 +66,18 @@ html body header nav ul {
   flex-direction: row;
   list-style: none;
   justify-content: space-around;
-  padding-top: 2rem;
 }
 html body header nav ul li {
   color: #fff;
+  padding-top: 2rem;
 }
 html body header nav ul > li:first-of-type figure {
-  width: 50%;
+  padding-bottom: 2rem;
+  width: 8rem;
+  height: 8rem;
+}
+html body header nav ul #fig {
+  padding-top: 10px;
 }
 html body main > ul > li:first-of-type {
   background-image: url("assets/img/home-computer.jpeg");
